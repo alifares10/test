@@ -23,9 +23,8 @@ const ProjectRoutes = () => {
     <React.Suspense fallback={<>Loading...</>}>
       <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<BaslineReporting />} />
           <Route path="*" element={<NotFound />} />
-          <Route path="/baslinereporting" element={<BaslineReporting />} />
           <Route path="/scheduling" element={<Scheduling />} />
           <Route path="/tasklist" element={<Tasklist />} />
           <Route path="/demoaccount" element={<DemoAccount />} />
@@ -42,6 +41,7 @@ const ProjectRoutes = () => {
           <Route path="/performancetracker" element={<PerformanceTracker />} />
           <Route path="/videolibrary" element={<VideoLibrary />} />
           <Route path="/signuploginmodule" element={<SignupLoginModule />} />
+          <Route path="/dhiwise-dashboard" element={<Home />} />
         </Routes>
       </Router>
     </React.Suspense>

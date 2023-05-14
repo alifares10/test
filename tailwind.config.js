@@ -68,16 +68,16 @@ module.exports = {
         gray_700_11: "#55555511",
         gray_700_26: "#55555526",
       },
-      fontFamily: {
-        gilroy: "Gilroy",
-        opensans: "Open Sans",
-        montserrat: "Montserrat",
-      },
       boxShadow: {
         bs3: "0px 0px  10px 0px #55555526",
         bs1: "0px 0px  10px 4px #55555511",
         bs: "0px 15px  20px 0px #4545452b",
         bs2: "0px 12px  31px 0px #46464619",
+      },
+      fontFamily: {
+        gilroy: "Gilroy",
+        opensans: "Open Sans",
+        montserrat: "Montserrat",
       },
       backgroundImage: {
         gradient: "linear-gradient(90deg ,#00000066,#00000066)",
